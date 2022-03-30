@@ -24,7 +24,7 @@ const Office = () => {
       }).then((res) => {
           console.log('successful')
           if (res.status === 200) {
-              Router.push('/signup/verify-account')
+              Router.push('signup/office.js')
             //   setEmail('')
             //   setPassword('')
           }
